@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
                         .addMenuList(menuItems)
                         .addMenuItem(new MenuItem(R.mipmap.facetoface, "面对面快传"))
                         .addMenuItem(new MenuItem(R.mipmap.pay, "付款"))
+                        //.setMenuList(menuItems)
                         .setOnMenuItemClickListener(new TopRightMenu.OnMenuItemClickListener() {
                             @Override
                             public void onMenuItemClick(int position) {

@@ -108,6 +108,17 @@ public class TopRightMenu {
         this.showIcon = show;
         return this;
     }
+    
+    /**
+     * 设置单个菜单
+     * @param item
+     * @return
+     */
+    public TopRightMenu setMenuItem(MenuItem item){
+        menuItemList.clear();
+        menuItemList.add(item);
+        return this;
+    }
 
     /**
      * 添加单个菜单
@@ -116,6 +127,17 @@ public class TopRightMenu {
      */
     public TopRightMenu addMenuItem(MenuItem item){
         menuItemList.add(item);
+        return this;
+    }
+
+    /**
+     * 设置多个菜单
+     * @param list
+     * @return
+     */
+    public TopRightMenu setMenuList(List<MenuItem> list){
+        menuItemList.clear();
+        menuItemList.addAll(list);
         return this;
     }
 
