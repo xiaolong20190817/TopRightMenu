@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TopRightMenu.iml" filepath="$PROJECT_DIR$/TopRightMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/TopRightMenu-app.iml" filepath="$PROJECT_DIR$/app/TopRightMenu-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toprightmenu/TopRightMenu-toprightmenu.iml" filepath="$PROJECT_DIR$/toprightmenu/TopRightMenu-toprightmenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/toprightmenu/toprightmenu.iml" filepath="$PROJECT_DIR$/toprightmenu/toprightmenu.iml" />
     </modules>

@@ -108,7 +108,7 @@ public class TopRightMenu {
         this.showIcon = show;
         return this;
     }
-    
+
     /**
      * 设置单个菜单
      * @param item
@@ -149,6 +149,14 @@ public class TopRightMenu {
     public TopRightMenu addMenuList(List<MenuItem> list){
         menuItemList.addAll(list);
         return this;
+    }
+
+    /**
+     * 获取菜单
+     * @return
+     */
+    public List<MenuItem> getMenuList(){
+        return menuItemList;
     }
 
     /**
